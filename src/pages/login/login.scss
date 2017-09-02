@@ -1,0 +1,37 @@
+page-login {
+	.content{
+		display: flex;
+		flex-direction: column;
+		background: #3B5998
+	}
+ .logo{
+	 flex:3;
+	 text-align: center;
+	 margin-top: 50px;
+	 height: 350px;
+ }
+ .logo img{
+	 width: 200px;
+	 height: 200px;
+	 border-radius: 100px;
+ }
+ .form{
+	 flex: 2;
+	 height: 100px;
+ }
+ .skip{
+	 flex: 1;
+	text-align: right;
+	margin-top: 20px;
+	color: white
+ }
+ .cap{
+	 height: 100px;
+	 font-size: 20px;
+	 color:white;
+ }
+ .login{
+	 text-align: center;
+	 color: white
+ }
+}
